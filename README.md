@@ -17,7 +17,7 @@ Starting with a sluggish API capable of less than 100RPS, the Reviews-API is the
 
 
 ### Optimizations:
-* Implemented an ETL process to migrate over 7GB/20M+ entries into a redesigned postreSQL database optimizing query times to ~1ms.
+* Implemented an ETL process to migrate over 7GB/20M+ entries into a redesigned PostgreSQL database optimizing query times to ~1ms.
 * Scaled horizontally to a microservice architecture with 3 AWS EC2 instances.
 * Utilized an NGINX load balancer to distribute traffic across servers and take advantage of caching capabilities.
 
